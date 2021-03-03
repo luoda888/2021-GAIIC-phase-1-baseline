@@ -6,10 +6,8 @@
     --- input
         YOUR_TRAIN.CSV
         YOUR_TEST.CSV
-        
     --- model
         baseline.py
-    
     --- setting
         output.csv
 `
