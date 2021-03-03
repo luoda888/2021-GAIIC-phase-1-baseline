@@ -93,7 +93,7 @@ print(np.mean(scores))
 
 submit = test[['report_ID']]
 submit['Prediction'] = [" ".join([str(j) for j in i]) for i in lr_predictions[:, :-1]]
-f = open("./setting/LR + TFIDF + CountVector + HashVector + SVD(200).csv", "w")
+f = open("./setting/LR + 5Fold + TFIDF(Ngram5) + SVD(100).csv", "w")
 for index, rows in submit.iterrows():
     f.write("{}|,|{}\n".format(rows['report_ID'], rows['Prediction']))
 f.close()
