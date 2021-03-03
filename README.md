@@ -1,5 +1,18 @@
 # 2021-GAIIC-phase-1-baseline
 
+文件结构如下:
+`
+  --- PHASE-1
+    --- input
+        YOUR_TRAIN.CSV
+        YOUR_TEST.CSV
+        
+    --- model
+        baseline.py
+    
+    --- setting
+        output.csv
+`
 后续可能会发布nn的baseline~<br>
 
 ## TF-IDF SVD 
